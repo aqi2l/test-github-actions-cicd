@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-ci-icd-github"
+  annotations:
+    github.com/project-slug: "github.com?owner=guest&repo=test-github-actions-cicd"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
